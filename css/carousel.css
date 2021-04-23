@@ -23,48 +23,50 @@
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.home .carousel-item .carousel-caption h2{
+/*Animação não funcioando*/
+.carousel-caption h2{
     font-size: 36px;
     color: white;
     margin: 0 0 10px;
-    /*opacity:0;*/    
+    opacity:1;    
 }
-.home .carousel-item .carousel-caption p{
+.carousel-caption p{
     font-size: 22px;
     margin: 0;
     color: #eee;  
-    /*opacity:0;*/  
+    opacity:1;
 }
-/*.home .carousel-item .carousel-caption .active h2{
+.carousel-caption.active h2{
 	animation: fadeInLeft 0.5s ease forwards;
 }
-.home .carousel-item .carousel-caption .active p{
+.carousel-caption.active p{
 	animation: fadeInRight 0.5s ease forwards;
 }
 @keyframes fadeInLeft{
-	0%{
-		opacity: 0;
-		transform: translateX(-30px);
-	}
-	100%{
-		opacity: 1;
-		transform: translateX(0px);
-	}
+    0%{
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 @keyframes fadeInRight{
-	0%{
-		opacity: 0;
-		transform: translateX(30px);
-	}
-	100%{
-		opacity: 1;
-		transform: translateX(0px);
-	}
-}*/
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+/*Fim da Animação não funcioando*/
+
 .home .carousel-indicators{
     position: absolute;
     bottom: 5%;
-    
 }
 .home .carousel-indicators button{
     height: 56px;
